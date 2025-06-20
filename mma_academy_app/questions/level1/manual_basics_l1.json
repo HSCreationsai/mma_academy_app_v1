@@ -1,0 +1,101 @@
+[
+  {
+    "id": "L1MB001",
+    "level": 1,
+    "topic": "Manual Basics - Stances",
+    "question_type": "mcq",
+    "text": "What is the most common foundational stance in MMA that offers both offensive and defensive options?",
+    "options": [
+      { "id": "A", "text": "Southpaw Stance" },
+      { "id": "B", "text": "Orthodox Stance" },
+      { "id": "C", "text": "Switch Stance" },
+      { "id": "D", "text": "Neutral Fighting Stance" }
+    ],
+    "correct_answer_id": "D",
+    "marks": 2,
+    "difficulty": "easy",
+    "video_url": null,
+    "image_url": null,
+    "feedback": "The Neutral Fighting Stance is crucial for maintaining balance and readiness.",
+    "source_reference": "Training Manual, Chapter 1: Stances and Footwork"
+  },
+  {
+    "id": "L1MB002",
+    "level": 1,
+    "topic": "Manual Basics - Basic Strikes",
+    "question_type": "mcq",
+    "text": "Which of these is considered a fundamental straight punch in MMA?",
+    "options": [
+      { "id": "A", "text": "Spinning Backfist" },
+      { "id": "B", "text": "Overhand Right" },
+      { "id": "C", "text": "Jab" },
+      { "id": "D", "text": "Superman Punch" }
+    ],
+    "correct_answer_id": "C",
+    "marks": 1,
+    "difficulty": "easy",
+    "video_url": null,
+    "image_url": null,
+    "feedback": "The jab is a quick, straight punch used for various purposes including measuring distance and setting up other strikes.",
+    "source_reference": "Training Manual, Chapter 2: Basic Striking"
+  },
+  {
+    "id": "L1MB003",
+    "level": 1,
+    "topic": "Manual Basics - Guard",
+    "question_type": "mcq",
+    "text": "When a fighter is on their back and controls an opponent using their legs, this position is commonly known as?",
+    "options": [
+      { "id": "A", "text": "Mount" },
+      { "id": "B", "text": "Side Control" },
+      { "id": "C", "text": "Guard" },
+      { "id": "D", "text": "Sprawl" }
+    ],
+    "correct_answer_id": "C",
+    "marks": 2,
+    "difficulty": "easy",
+    "video_url": null,
+    "image_url": null,
+    "feedback": "The guard is a fundamental defensive (and offensive) position in ground fighting.",
+    "source_reference": "Training Manual, Chapter 3: Ground Fighting Basics"
+  },
+  {
+    "id": "L1MB004",
+    "level": 1,
+    "topic": "Manual Basics - Takedowns",
+    "question_type": "mcq",
+    "text": "A common takedown that involves grabbing both of an opponent's legs is called a?",
+    "options": [
+      { "id": "A", "text": "Hip Toss" },
+      { "id": "B", "text": "Single Leg Takedown" },
+      { "id": "C", "text": "Double Leg Takedown" },
+      { "id": "D", "text": "Suplex" }
+    ],
+    "correct_answer_id": "C",
+    "marks": 2,
+    "difficulty": "medium",
+    "video_url": null,
+    "image_url": null,
+    "feedback": "The double leg takedown is a powerful and widely used technique to take an opponent to the ground.",
+    "source_reference": "Training Manual, Chapter 4: Takedowns"
+  },
+  {
+    "id": "L1MB005",
+    "level": 1,
+    "topic": "Manual Basics - Safety",
+    "question_type": "true_false",
+    "text": "It is acceptable to train MMA without a mouthguard if it's only light sparring.",
+    "options": [
+        { "id": "T", "text": "True" },
+        { "id": "F", "text": "False" }
+    ],
+    "correct_answer_id": "F",
+    "marks": 1,
+    "difficulty": "easy",
+    "video_url": null,
+    "image_url": null,
+    "feedback": "Safety equipment, including mouthguards, should always be used during sparring, regardless of intensity, to prevent dental injuries.",
+    "source_reference": "Training Manual, Chapter 0: Safety and Equipment"
+  }
+]
+

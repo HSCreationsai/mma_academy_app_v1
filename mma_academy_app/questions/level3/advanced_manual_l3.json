@@ -1,0 +1,39 @@
+[
+  {
+    "id": "L3AM001",
+    "level": 3,
+    "topic": "Advanced Manual - Game Planning",
+    "question_type": "mcq",
+    "text": "When developing a game plan for a specific opponent, what is the MOST crucial initial step?",
+    "options": [
+      { "id": "A", "text": "Focusing solely on your fighter's strongest techniques." },
+      { "id": "B", "text": "Detailed film study of the opponent to identify patterns, strengths, and weaknesses." },
+      { "id": "C", "text": "Assuming the opponent will fight exactly like their last three opponents." },
+      { "id": "D", "text": "Prioritizing cardiovascular conditioning above all else." }
+    ],
+    "correct_answer_id": "B",
+    "marks": 3,
+    "difficulty": "hard",
+    "feedback": "Effective game planning starts with a thorough analysis of the opponent to tailor strategies effectively.",
+    "source_reference": "Advanced Coaching Manual - Chapter on Competition Strategy"
+  },
+  {
+    "id": "L3AM002",
+    "level": 3,
+    "topic": "Advanced Manual - Peaking for Competition",
+    "question_type": "mcq",
+    "text": "Which physiological principle is most directly associated with 'peaking' an athlete for a competition?",
+    "options": [
+      { "id": "A", "text": "Principle of Overload" },
+      { "id": "B", "text": "Principle of Specificity" },
+      { "id": "C", "text": "Principle of Supercompensation" },
+      { "id": "D", "text": "Principle of Reversibility" }
+    ],
+    "correct_answer_id": "C",
+    "marks": 3,
+    "difficulty": "hard",
+    "feedback": "Supercompensation refers to the body's adaptation to stress, where, after a period of training and recovery, performance capacity can exceed baseline levels, which is the goal of peaking.",
+    "source_reference": "Advanced Coaching Manual - Chapter on Periodization and Peaking"
+  }
+]
+

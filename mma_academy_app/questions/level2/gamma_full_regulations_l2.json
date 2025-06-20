@@ -1,0 +1,55 @@
+[
+  {
+    "id": "L2GR001",
+    "level": 2,
+    "topic": "GAMMA Full Regulations - Weight Classes",
+    "question_type": "mcq",
+    "text": "According to full GAMMA regulations, what is the upper weight limit for the Men's Bantamweight division?",
+    "options": [
+      { "id": "A", "text": "61.2 kg (135 lbs)" },
+      { "id": "B", "text": "65.8 kg (145 lbs)" },
+      { "id": "C", "text": "70.3 kg (155 lbs)" },
+      { "id": "D", "text": "56.7 kg (125 lbs)" }
+    ],
+    "correct_answer_id": "A",
+    "marks": 2,
+    "difficulty": "medium",
+    "feedback": "The Men's Bantamweight division in GAMMA has an upper limit of 61.2 kg.",
+    "source_reference": "GAMMA Regulations Document, Section X.Y"
+  },
+  {
+    "id": "L2GR002",
+    "level": 2,
+    "topic": "GAMMA Full Regulations - Fouls",
+    "question_type": "mcq",
+    "text": "Which of the following actions is considered a foul under GAMMA unified rules?",
+    "options": [
+      { "id": "A", "text": "Kneeing a grounded opponent to the body." },
+      { "id": "B", "text": "Applying a Kimura submission." },
+      { "id": "C", "text": "Striking the back of the head." },
+      { "id": "D", "text": "Using an open-hand push to the face." }
+    ],
+    "correct_answer_id": "C",
+    "marks": 2,
+    "difficulty": "medium",
+    "feedback": "Striking to the back of the head or spine is a prohibited action (foul) in GAMMA rules.",
+    "source_reference": "GAMMA Regulations Document, Section A.B - Fouls"
+  },
+  {
+    "id": "L2GR003",
+    "level": 2,
+    "topic": "GAMMA Full Regulations - Attire",
+    "question_type": "true_false",
+    "text": "Competitors are allowed to wear shoes during a GAMMA regulated MMA bout.",
+    "options": [
+        { "id": "T", "text": "True" },
+        { "id": "F", "text": "False" }
+    ],
+    "correct_answer_id": "F",
+    "marks": 1,
+    "difficulty": "easy",
+    "feedback": "Shoes are generally not permitted in MMA competition attire under GAMMA rules; competitors fight barefoot.",
+    "source_reference": "GAMMA Regulations Document, Section C.D - Attire & Equipment"
+  }
+]
+

@@ -1,0 +1,14 @@
+faiss-cpu
+sentence-transformers
+transformers
+torch
+gTTS
+PyPDF2
+Pillow
+Werkzeug
+streamlit>=1.22.0
+streamlit-option-menu>=0.3.2
+# Optional dependencies - may require additional system libraries
+# weasyprint>=54.0  # Requires GTK on Windows
+# jinja2>=3.0.0     # For certificate templates
+

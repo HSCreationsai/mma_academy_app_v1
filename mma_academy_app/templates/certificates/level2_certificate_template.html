@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Certified Intermediate MMA Coach - Level 2</title>
+    <link rel="stylesheet" href="certificate_styles.css">
+</head>
+<body>
+    <div class="certificate-container level2-accent">
+        <img src="{{ logo_path }}" alt="Academy Logo" class="logo">
+        <p class="academy-name">{{ academy_name }}</p>
+        
+        <p class="certificate-title">{{ program_title }}</p>
+        
+        <p class="certification-text">This is to certify that</p>
+        <p class="recipient-name">{{ user_name }}</p>
+        
+        <p class="completion-statement">has successfully demonstrated the knowledge and skills required for the</p>
+        <p class="program-name">{{ level_specific_title }}</p>
+
+        <!-- Placeholder for Level 2 Badge - to be implemented with actual image asset -->
+        <!-- <img src="{{ badge_path_l2 }}" alt="Level 2 Certified Badge" class="badge"> -->
+        <p style="font-size:14px; color: #888; margin-top:15px;">(Level 2 Badge Placeholder)</p>
+
+        <div class="signatures">
+            <div class="signature-block">
+                <div class="signature-line"></div>
+                <p class="signature-title">Head Instructor</p>
+            </div>
+            <div class="signature-block">
+                <div class="signature-line"></div>
+                <p class="signature-title">Academy Director</p>
+            </div>
+        </div>
+
+        <div class="footer-details">
+            <span>Date of Issuance: {{ issue_date }}</span>
+            <span>Certificate ID: {{ certificate_id }}</span>
+        </div>
+        
+        <div class="coach-olympus-seal">Coach Olympus Certified Program</div>
+    </div>
+</body>
+</html>
+

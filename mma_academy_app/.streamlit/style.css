@@ -1,0 +1,272 @@
+/* ================================
+   MMA Academy Portal - UI Styling
+   Leonardo Picacho Enhanced Edition
+   ================================ */
+
+/* GLOBAL OVERRIDES */
+html, body, .stApp {
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    font-size: 15px;
+    color: #1e1e1e;
+}
+
+/* HEADER STYLING */
+h1, h2, h3 {
+    color: #1e3d59;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* SIDEBAR (Avoiding hashed class) */
+section[data-testid="stSidebar"] {
+    background-color: #1e3d59;
+    padding: 2rem 1rem;
+    color: white;
+}
+
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
+    color: #00f3ff;
+}
+
+/* LOGO SPACING */
+img {
+    margin-bottom: 10px;
+}
+
+/* CARDS AND CONTAINERS */
+.stMarkdown, .stMetric {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    margin-bottom: 1.5rem;
+}
+
+/* BUTTONS */
+.stButton > button {
+    background-color: #ff6e40;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1.2rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.stButton > button:hover {
+    background-color: #ff5722;
+    transform: translateY(-2px);
+}
+
+/* PROGRESS BARS */
+.stProgress > div > div > div > div {
+    background-color: #17c3b2;
+}
+
+/* ALERTS / INFO BOXES */
+div.stAlert.success {
+    border-left: 5px solid #17c3b2;
+    background-color: #e8f8f7;
+}
+
+div.stAlert.warning {
+    border-left: 5px solid #ffc13b;
+    background-color: #fffbe6;
+}
+
+div.stAlert.error {
+    border-left: 5px solid #ff6b6b;
+    background-color: #ffeaea;
+}
+
+/* CODE BLOCKS */
+.stCodeBlock {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    font-family: 'Courier New', monospace;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+/* TABLES */
+.stTable, .stDataFrame {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.5rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+}
+
+/* FOOTER */
+footer {
+    font-size: 0.8em;
+    color: #888;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* DIVIDERS */
+hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.2), rgba(0,0,0,0));
+    margin: 2rem 0;
+}
+
+/* TOOLTIPS (if needed later) */
+div[data-baseweb="tooltip"] {
+    background-color: #1e3d59;
+    color: #fff;
+    font-size: 13px;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+}
+
+/* DISABLE RIGHT CLICK / COPY (if enabled via footer injection) */
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+
+/* RESPONSIVE OPTIMIZATION */
+@media screen and (max-width: 768px) {
+    .stMarkdown, .stMetric {
+        padding: 1rem;
+    }
+
+    .stButton > button {
+        width: 100%;
+    }
+
+    section[data-testid="stSidebar"] {
+        padding: 1rem;
+    }
+}
+
+/* ===============================
+   Admin Control Panel Styling
+   Theme: Blue Neon Grid Console
+   =============================== */
+
+html, body, .stApp {
+    background-color: #0c0f1a;
+    color: #e0f7fa;
+    font-family: 'Segoe UI', 'Consolas', monospace;
+}
+
+/* Headers */
+h1, h2, h3 {
+    color: #00f3ff;
+    text-shadow: 0 0 6px rgba(0, 243, 255, 0.5);
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #111927;
+    border-right: 2px solid #00f3ff;
+    padding: 2rem 1rem;
+}
+
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
+    color: #00f3ff;
+}
+
+/* Admin Buttons */
+.stButton > button {
+    background: linear-gradient(135deg, #00f3ff, #1488cc);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1.5rem;
+    font-weight: bold;
+    box-shadow: 0 0 8px rgba(0, 243, 255, 0.4);
+    transition: 0.3s ease;
+}
+
+.stButton > button:hover {
+    background: #00acc1;
+    transform: translateY(-1px);
+    box-shadow: 0 0 12px rgba(0, 243, 255, 0.6);
+}
+
+/* Cards / Panels */
+.stMarkdown, .stMetric {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(0, 243, 255, 0.2);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: inset 0 0 8px rgba(0, 243, 255, 0.05);
+}
+
+/* Code Blocks */
+.stCodeBlock {
+    background-color: #1a1f2e;
+    color: #00f3ff;
+    border-left: 4px solid #00f3ff;
+    font-family: monospace;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+/* Alerts */
+div.stAlert.success {
+    background-color: #003b4d;
+    border-left: 5px solid #17c3b2;
+}
+
+div.stAlert.warning {
+    background-color: #4c3700;
+    border-left: 5px solid #ffc13b;
+}
+
+div.stAlert.error {
+    background-color: #3b0c0c;
+    border-left: 5px solid #ff6b6b;
+}
+
+/* Neon Divider */
+hr {
+    height: 2px;
+    background: linear-gradient(to right, transparent, #00f3ff, transparent);
+    border: none;
+    margin: 2rem 0;
+}
+
+/* Grid-inspired accent */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 243, 255, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 243, 255, 0.03) 1px, transparent 1px);
+    background-size: 20px 20px;
+    z-index: -1;
+}
+
+/* Admin Footer */
+footer {
+    color: #00f3ff;
+    font-size: 0.8rem;
+    text-align: right;
+    padding: 1rem;
+    border-top: 1px solid #00f3ff;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .stButton > button {
+        width: 100%;
+    }
+    .stMarkdown {
+        padding: 1rem;
+    }
+}

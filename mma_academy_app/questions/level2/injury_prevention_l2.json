@@ -1,0 +1,55 @@
+[
+  {
+    "id": "L2IP001",
+    "level": 2,
+    "topic": "Injury Prevention - Warm-up & Cool-down",
+    "question_type": "mcq",
+    "text": "What is the primary purpose of a dynamic warm-up before an MMA training session?",
+    "options": [
+      { "id": "A", "text": "To increase static flexibility as much as possible." },
+      { "id": "B", "text": "To elevate core body temperature and increase blood flow to muscles." },
+      { "id": "C", "text": "To primarily build muscle strength before technical drills." },
+      { "id": "D", "text": "To practice holding isometric positions for extended periods." }
+    ],
+    "correct_answer_id": "B",
+    "marks": 2,
+    "difficulty": "medium",
+    "feedback": "Dynamic warm-ups prepare the body for strenuous activity by increasing temperature, blood flow, and activating the neuromuscular system, reducing injury risk.",
+    "source_reference": "Coaching Manual - Section on Athlete Preparation & Safety"
+  },
+  {
+    "id": "L2IP002",
+    "level": 2,
+    "topic": "Injury Prevention - Common Injuries",
+    "question_type": "mcq",
+    "text": "Which of these is a common overuse injury in MMA fighters, often related to repetitive striking or grappling movements?",
+    "options": [
+      { "id": "A", "text": "Acute ACL tear" },
+      { "id": "B", "text": "Shoulder impingement syndrome" },
+      { "id": "C", "text": "Facial laceration" },
+      { "id": "D", "text": "Concussion" }
+    ],
+    "correct_answer_id": "B",
+    "marks": 2,
+    "difficulty": "medium",
+    "feedback": "Shoulder impingement is often an overuse injury resulting from repetitive overhead movements or strain common in MMA training.",
+    "source_reference": "Sports Medicine for MMA - Chapter on Common Injuries"
+  },
+  {
+    "id": "L2IP003",
+    "level": 2,
+    "topic": "Injury Prevention - Protective Gear",
+    "question_type": "true_false",
+    "text": "For sparring, 16oz gloves are generally recommended for adult male athletes to provide adequate protection for both sparring partners.",
+    "options": [
+        { "id": "T", "text": "True" },
+        { "id": "F", "text": "False" }
+    ],
+    "correct_answer_id": "T",
+    "marks": 1,
+    "difficulty": "easy",
+    "feedback": "Heavier gloves like 16oz are standard for sparring to minimize impact force and reduce the risk of injury to both participants.",
+    "source_reference": "MMA Equipment Guidelines - Sparring Safety"
+  }
+]
+

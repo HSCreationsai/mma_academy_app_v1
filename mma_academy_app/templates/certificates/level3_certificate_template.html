@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Official Advanced MMA Coach - Level 3</title>
+    <link rel="stylesheet" href="certificate_styles.css">
+    <style>
+        /* Additional styles specific to Level 3, like watermark */
+        .certificate-container.level3-watermark::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("{{ logo_path }}"); /* Use academy logo as watermark */
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain; /* Or a specific size like 300px */
+            opacity: 0.08; /* Very faint */
+            z-index: -1; /* Behind the content */
+        }
+    </style>
+</head>
+<body>
+    <div class="certificate-container level3-accent level3-watermark">
+        <img src="{{ logo_path }}" alt="Academy Logo" class="logo">
+        <p class="academy-name">{{ academy_name }}</p>
+        
+        <p class="certificate-title">{{ program_title }}</p>
+        
+        <p class="certification-text">This is to certify that</p>
+        <p class="recipient-name">{{ user_name }}</p>
+        
+        <p class="completion-statement">has achieved the highest standard of knowledge and expertise in the Coach Olympus Program, fulfilling all online requirements for the</p>
+        <p class="program-name">{{ level_specific_title }}</p>
+
+        <!-- Placeholder for Level 3 Badge - to be implemented with actual image asset -->
+        <!-- <img src="{{ badge_path_l3 }}" alt="Level 3 Certified Badge" class="badge"> -->
+        <p style="font-size:14px; color: #888; margin-top:15px;">(Level 3 Badge Placeholder)</p>
+
+        <div class="signatures">
+            <div class="signature-block">
+                <div class="signature-line"></div>
+                <p class="signature-title">Head Instructor</p>
+            </div>
+            <div class="signature-block">
+                <div class="signature-line"></div>
+                <p class="signature-title">Academy President</p>
+            </div>
+        </div>
+
+        <div class="footer-details">
+            <span>Date of Issuance: {{ issue_date }}</span>
+            <span>Certificate ID: {{ certificate_id }}</span>
+        </div>
+        <!-- Placeholder for QR Code -->
+        <!-- <img src="{{ qr_code_path }}" alt="Validation QR Code" class="qr-code" style="position:absolute; bottom:25px; left:25px; width:60px; height:60px;"> -->
+        <p style="font-size:10px; color: #aaa; position:absolute; bottom:35px; left:25px;">(QR Code Placeholder)</p>
+        
+        <div class="coach-olympus-seal">Coach Olympus Certified Program</div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Certificate of Completion - Level 1</title>
+    <link rel="stylesheet" href="certificate_styles.css">
+</head>
+<body>
+    <div class="certificate-container level1-accent">
+        <img src="{{ logo_path }}" alt="Academy Logo" class="logo">
+        <p class="academy-name">Indonesia MMA Youth Excellence Academy & National Coach Training Program</p>
+        
+        <p class="certificate-title">Certificate of Completion</p>
+        
+        <p class="certification-text">This is to certify that</p>
+        <p class="recipient-name">{{ user_name }}</p>
+        
+        <p class="completion-statement">has successfully completed all online requirements for the</p>
+        <p class="program-name">Coach Olympus MMA Fundamentals – Level 1</p>
+
+        <div class="signatures">
+            <div class="signature-block">
+                <div class="signature-line"></div>
+                <p class="signature-title">Head Instructor</p>
+            </div>
+            <div class="signature-block">
+                <div class="signature-line"></div>
+                <p class="signature-title">Academy Director</p>
+            </div>
+        </div>
+
+        <div class="footer-details">
+            <span>Date of Issuance: {{ issue_date }}</span>
+            <span>Certificate ID: {{ certificate_id }}</span>
+        </div>
+        
+        <div class="coach-olympus-seal">Coach Olympus Certified Program</div>
+    </div>
+</body>
+</html>
+
